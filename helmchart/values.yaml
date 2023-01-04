@@ -3,7 +3,7 @@ vote:
   replica: 1
   image:
     container_name: vote
-    repo: dockersamples/examplevotingapp_vote
+    repo: ajmaldocker07/vote_app
     tag: 6
   service:
     port: 5000
@@ -14,7 +14,7 @@ result:
   replica: 1
   image:
     container_name: result
-    repo: dockersamples/examplevotingapp_result
+    repo: ajmaldocker07/result_app
     tag: 6
   service:
     port: 5001
