@@ -4,7 +4,7 @@ vote:
   image:
     container_name: vote
     repo: dockersamples/examplevotingapp_vote
-    tag: latest
+    tag: 6
   service:
     port: 5000
     targetport: 80
@@ -15,7 +15,7 @@ result:
   image:
     container_name: result
     repo: dockersamples/examplevotingapp_result
-    tag: latest
+    tag: 6
   service:
     port: 5001
     targetport: 80
